@@ -76,7 +76,7 @@ The down convolution layers of the model utilized the VGG16 architecture, which 
 In the up convolution layers, random initialized layers were used and trained on the specific task of brain tumor segmentation. This allowed the model to learn and adapt to the specific features and patterns present in the MRI images of brain tumors. Sigmoid activation functions were employed in these layers to produce a binary mask as the expected output of the model, with values between 0 and 1 representing the segmented regions of the brain tumor.
 Resulting predicted masks:
 
-![image](https://github.com/Mohamed2bdelaziz/brain-tumor-segmentation/assets/110987609/6595f32e-5aa7-4783-8936-4ff4a360bd1f)
+![image](https://github.com/Mohamed2bdelaziz/brain-tumor-segmentation/assets/110987609/a0fb63f0-ed6c-43b1-bb32-2874a4f0ef69)
 Overall, the combination of VGG16 pretrained model in the down convolution layers and random initialized layers in the up convolution layers provided the model with the capability to effectively segment brain tumors from MRI images, capturing the intricate features and patterns present in the input data.
 
 ## 5. Evaluation
